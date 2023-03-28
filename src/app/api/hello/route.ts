@@ -12,3 +12,5 @@ export async function GET() {
   }
   return NextResponse.json({ foo: ps_products });
 }
+
+export const revalidate = 10;
